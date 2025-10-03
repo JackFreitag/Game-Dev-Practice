@@ -192,7 +192,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wmkwl"]
-size = Vector2(10.000002, 15.333334)
+size = Vector2(10.666668, 11)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 scale = Vector2(3, 3)
@@ -200,13 +200,13 @@ script = ExtResource("1_2q423")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(9.666668, 6.083337)
-scale = Vector2(0.6875, 0.73437524)
+position = Vector2(11.000001, 8.250004)
+scale = Vector2(0.6041667, 0.59895855)
 sprite_frames = SubResource("SpriteFrames_bdwkj")
 animation = &"Idle"
 autoplay = "Idle"
 frame_progress = 0.5941745
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(10.333334, 9.000002)
+position = Vector2(11, 10.833334)
 shape = SubResource("RectangleShape2D_wmkwl")
